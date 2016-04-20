@@ -1,0 +1,13 @@
+.navbar{
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.navbar + div{
+  margin-top: 100px;
+}
+
+/*
+#home{
+  margin-top: 100px;
+} */
