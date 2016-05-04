@@ -49,8 +49,23 @@
 
 
 
+/* my grid system */
+.my-row{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
 
+.my-col-4{
+  width: 33.333%;
+  padding: 0 5px;
+  display: inline-block;
+  margin-right: -5px;
+}
 
+.my-col-4:last-of-type{
+  margin-right: 0px;
+}
 
 
 
