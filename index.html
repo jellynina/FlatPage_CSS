@@ -23,10 +23,11 @@
       <ul class="nav navbar-nav">
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" onclick="smoothScroll(document.getElementByTag('body'), 2000)">HOME</a></li>
-        <li><a href="#" onclick="smoothScroll(document.getElementById('profile'), 2000)">PROFILES</a></li>
-        <li><a href="#" onclick="smoothScroll(document.getElementById('about'), 2000)">ABOUT</a></li>
+        <li><a href="#home" >HOME</a></li>
+        <li><a href="#profile" >PROFILES</a></li>
+        <li><a href="#about" >ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a href="html/blog.html">Blog</a></li>
       </ul>
     </div>
   </div>
@@ -40,16 +41,25 @@
     </p>
     <button class="btn btn-primary btn-lg center-block">Learn More</button>
     <button class="btn btn-circle btn-lg center-block"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+    <a href="https://www.instagram.com/kittenspaws/" target="_blank">Go to IG</a>
 
   </div>
 </div>
 
-<div class="container section-block">
+<!-- section 1 -->
+<div class="container" id="profile">
   <h2 class="text-center">Profile</h2>
   <p class="text-center">
    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </p>
-  <div class="row">
+  <div class="text-center">
+    <button class="btn btn-primary">ALL</button>
+    <button class="btn btn-primary">WEB DESIGN</button>
+    <button class="btn btn-primary">GRAPHIC DESIGN</button>
+    <button class="btn btn-primary">FLAT DESIGN</button>
+  </div>
+
+  <div class="row section feature-section">
     <div class="col-md-3">
       <div class="section-item center-block">
         <img class="img-responsive" src="img/Col 1.png" alt="">
@@ -61,8 +71,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 1.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 2.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -71,8 +80,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 2.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 3.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -81,8 +89,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 3.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 4.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -91,8 +98,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 4.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 5.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -101,8 +107,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 5.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 6.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -111,8 +116,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 6.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 7.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -121,8 +125,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="section-item center-block">
-        <img class="img-responsive" src="img/Col 7.png" alt="">
+      <div class="section-item center-block"><img class="img-responsive" src="img/Col 8.png" alt="">
         <div class="hover-to-show">
           <button class="btn-circle"><i class="fa fa-search"></i></button>
           <h4>Example Titile</h4>
@@ -133,32 +136,89 @@
   </div>
 </div>
 
-<div class="container section-block">
-  <h2>My col with inline block</h2>
-  <div class="my-row">
-    <div class="my-col-4">
-      <img class="img-responsive" src="img/Col 7.png" alt="">
-      <div class="hover-to-show">
-        <button class="btn-circle"><i class="fa fa-search"></i></button>
-        <h4>Example Titile</h4>
-        <p>Web Desing</p>
+
+<!-- section 2 -->
+<div id="about" class="about-section">
+  <h2 class="text-center text-muted">About Us</h2>
+  <p class="text-center text-muted">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  </p>
+
+  <div class="row section container center-block">
+    <div class="col-md-4">
+      <div class="section-item">
+        <img class="item-img" src="img/people1.png" alt="">
+        <div class="item-info">
+          <h3>Name</h3>
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
       </div>
     </div>
-    <div class="my-col-4">
-      <img class="img-responsive" src="img/Col 7.png" alt="">
-      <div class="hover-to-show">
-        <button class="btn-circle"><i class="fa fa-search"></i></button>
-        <h4>Example Titile</h4>
-        <p>Web Desing</p>
+
+    <div class="col-md-4">
+      <div class="section-item">
+        <img class="item-img" src="img/people2.png" alt="">
+        <div class="item-info">
+          <h3>Name</h3>
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
       </div>
     </div>
-    <div class="my-col-4">
-      <img class="img-responsive" src="img/Col 7.png" alt="">
-      <div class="hover-to-show">
-        <button class="btn-circle"><i class="fa fa-search"></i></button>
-        <h4>Example Titile</h4>
-        <p>Web Desing</p>
+
+    <div class="col-md-4">
+      <div class="section-item">
+        <img class="item-img" src="img/people3.png" alt="">
+        <div class="item-info">
+          <h3>Name</h3>
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="contact-section">
+  <h2 class="text-center">Contact Us</h2>
+  <p class="text-center">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  </p>
+
+  <div class="row section container">
+    <div class="col-md-6">
+      <form action="" class="contact-form center-block">
+        <div class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="">Your Name</label>
+            <input class="form-control" type="text" placeholder="Your Name">
+          </div><div class="form-group">
+            <label class="sr-only" for="">Your Email</label>
+            <input class="form-control" type="text" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="">Your Message</label>
+          <textarea class="form-control" name="name" rows="8" cols="40" placeholder="Your Message"></textarea>
+        </div>
+        <div class="form-group text-right">
+          <button class="btn btn-primary text-uppercase">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-6">
+      <h6 class="text-uppercase">information</h6>
+      <p>
+        701 臺南市東區大學路1號
+      </p>
+      <p>
+        TEL：06-2757575
+      </p>
+      <p>
+        <a href="mailto:someone@example.com?Subject=Hello%20again">someone@example.com</a>
+      </p>
     </div>
   </div>
 </div>
